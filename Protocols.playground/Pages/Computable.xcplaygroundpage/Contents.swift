@@ -21,7 +21,12 @@ class Sum {
 class Product {
     var numbers = [1,2,3,4,5,6,7,8,9]
     func compute() -> Int {
-        
+        var myProduct = 0
+        for number in numbers {
+            myProduct *= number
+        }
+        print(myProduct)
+        return myProduct
     }
 }
 
