@@ -12,13 +12,13 @@ class Human: CanMakeNoise {
     }
 }
 
-class Pig {
+class Pig: CanMakeNoise {
     func makeNoise() {
         print("oink")
     }
 }
 
-class Cow {
+class Cow: CanMakeNoise {
     func makeNoise() {
         print("moo")
     }
