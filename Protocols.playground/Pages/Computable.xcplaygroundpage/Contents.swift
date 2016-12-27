@@ -2,6 +2,10 @@
 
 import Foundation
 
+protocol Computable {
+    func compute() -> Int
+}
+
 class Sum {
     
 }
