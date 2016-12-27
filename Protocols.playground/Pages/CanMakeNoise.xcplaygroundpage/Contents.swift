@@ -28,6 +28,6 @@ let human = Human()
 let pig = Pig()
 let cow = Cow()
 
-let arrayOfNoiseMaker = [human, pig, cow]
+let arrayOfNoiseMaker: [CanMakeNoise] = [human, pig, cow]
 
 print(arrayOfNoiseMaker(1))
