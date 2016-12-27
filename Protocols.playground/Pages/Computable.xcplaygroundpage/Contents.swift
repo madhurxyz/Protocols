@@ -42,6 +42,8 @@ class CountCharacters {
 class Random {
     var string: String = "odinfeoivneflndwcnervbunlinwe;dqwmid"
     func compute() -> Int {
-        
+        let myRandom = Int(arc4random())
+        print(myRandom)
+        return myRandom
     }
 }
