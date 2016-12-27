@@ -2,5 +2,7 @@
 
 import Foundation
 
-
+class Sum {
+    
+}
 
