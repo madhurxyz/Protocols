@@ -24,3 +24,4 @@ class Cow: CanMakeNoise {
     }
 }
 
+let human = Human()
