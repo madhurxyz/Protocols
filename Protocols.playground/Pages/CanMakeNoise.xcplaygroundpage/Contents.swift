@@ -7,7 +7,8 @@ protocol CanMakeNoise {
 }
 
 class Human {
-    
+    func makeNoise() {
+    }
 }
 
 class Pig {
