@@ -27,3 +27,7 @@ class Cow: CanMakeNoise {
 let human = Human()
 let pig = Pig()
 let cow = Cow()
+
+let arrayOfNoiseMaker = [human, pig, cow]
+
+print(arrayOfNoiseMaker(1))
