@@ -31,7 +31,7 @@ let cow = Cow()
 let arrayOfNoiseMaker: [CanMakeNoise] = [human, pig, cow]
 
 for animal in arrayOfNoiseMaker {
-    print(animal.Human)
+    print(animal.makeNoise())
 }
 
 //print(arrayOfNoiseMaker(1))
