@@ -25,3 +25,5 @@ class Cow: CanMakeNoise {
 }
 
 let human = Human()
+let pig = Pig()
+let cow = Cow()
