@@ -6,7 +6,7 @@ protocol CanMakeNoise {
     func makeNoise()
 }
 
-class Human {
+class Human: CanMakeNoise {
     func makeNoise() {
         print("hi")
     }
