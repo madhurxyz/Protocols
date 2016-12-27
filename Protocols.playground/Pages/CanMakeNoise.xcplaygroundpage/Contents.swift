@@ -3,6 +3,15 @@
 import UIKit
 
 
+class Human {
+    
+}
 
+class Pig {
+    
+}
 
+class Cow {
+    
+}
 
