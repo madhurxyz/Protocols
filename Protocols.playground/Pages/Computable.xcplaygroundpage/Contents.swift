@@ -54,4 +54,7 @@ let countCharacters = CountCharacters()
 let random = Random()
 
 let arrayOfComputables: [Computable] = [sum, product, countCharacters, random]
+for computable in arrayOfComputables {
+    print(computable.compute())
+}
 
