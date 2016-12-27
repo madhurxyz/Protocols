@@ -2,6 +2,9 @@
 
 import UIKit
 
+protocol CanMakeNoise {
+    func makeNoise()
+}
 
 class Human {
     
