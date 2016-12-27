@@ -49,3 +49,6 @@ class Random: Computable {
 }
 
 var sum = Sum()
+let product = Product()
+let countCharacters = CountCharacters()
+let random = Random()
