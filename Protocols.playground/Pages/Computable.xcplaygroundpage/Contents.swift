@@ -47,3 +47,5 @@ class Random: Computable {
         return myRandom
     }
 }
+
+var sum = Sum()
