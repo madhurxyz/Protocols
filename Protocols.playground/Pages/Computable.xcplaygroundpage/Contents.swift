@@ -9,7 +9,12 @@ protocol Computable {
 class Sum {
     var numbers = [1,2,3,4,5,6,7,8,9]
     func compute() -> Int {
-        
+        var mySum = 0
+        for number in numbers {
+            mySum += number
+        }
+        print(mySum)
+        return mySum
     }
 }
 
