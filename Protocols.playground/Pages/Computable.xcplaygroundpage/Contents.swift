@@ -33,7 +33,9 @@ class Product {
 class CountCharacters {
     var string: String = "odinfeoivneflndwcnervbunlinwe;dqwmid"
     func compute() -> Int {
-        
+        let myString = string.characters.count
+        print(myString)
+        return myString
     }
 }
 
