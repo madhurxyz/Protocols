@@ -12,10 +12,14 @@ class Human {
 }
 
 class Pig {
+    func makeNoise() {
+    }
     
 }
 
 class Cow {
+    func makeNoise() {
+    }
     
 }
 
